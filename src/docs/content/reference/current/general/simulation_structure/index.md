@@ -87,7 +87,7 @@ HTTP requests are defined as follows in a scenario:
 ||< include-static "SimulationStructureSample.scala#http-request-sample" >||
 ```
 
-The above example produces a POST HTTP request that creates a new computer model::
+The above example produces a POST HTTP request that creates a new computer model:
 
 ```
 HTTP request:

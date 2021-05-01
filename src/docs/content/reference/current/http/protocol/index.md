@@ -162,7 +162,7 @@ But you can use `.hostNameAliases` to pass aliases programmatically:
 
 ### Virtual Host
 
-One can set a different Host than the url one::
+One can set a different Host than the url one:
 
 ```scala
 virtualHost(virtualHost: Expression[String])

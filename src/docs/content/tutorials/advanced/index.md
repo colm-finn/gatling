@@ -46,7 +46,7 @@ Let's define two populations of users:
 * *regular* users: they can search and browse computer models.
 * *admin* users: they can search, browse and also edit computer models.
 
-Translating into a scenario this gives::
+Translating into a scenario this gives:
 
 ```scala
 val users = scenario("Users").exec(Search.search, Browse.browse)
