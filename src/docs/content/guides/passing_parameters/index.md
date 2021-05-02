@@ -15,7 +15,7 @@ JAVA_OPTS="-Dusers=500 -Dramp=3600"
 ```
 
 ```scala
-||< include-static "PassingParametersSample.scala#injection-from-props" >||
+{{< include-code "PassingParametersSample.scala#injection-from-props" scala >}}
 ```
 
 Of course, passing a String is just as easy as:
@@ -25,5 +25,5 @@ JAVA_OPTS="-Dfoo=bar"
 ```
 
 ```scala
-||< include-static "PassingParametersSample.scala#string-property" >||
+{{< include-code "PassingParametersSample.scala#string-property" scala >}}
 ```

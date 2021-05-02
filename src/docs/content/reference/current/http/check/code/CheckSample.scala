@@ -93,7 +93,6 @@ class CheckSample {
     """
 
     //#jsonPath-Int
-
     jsonPath("$..foo").ofType[Int] // will match 1
     //#jsonPath-Int
 
@@ -106,7 +105,6 @@ class CheckSample {
     //#jmesPath-ofType
 
     //#jmesPath-Int
-
     jmesPath("foo").ofType[Int] // will match 1
     //#jmesPath-Int
 
@@ -140,9 +138,9 @@ class CheckSample {
     status.not(500)
     //#not
 
-    //#isNull
+    //#notNull
     jsonPath("$.foo").notNull
-    //#isNull
+    //#notNull
 
     //#exists
     jsonPath("$..foo").exists
